@@ -1,0 +1,70 @@
+body {
+    background:white;    
+    }
+div.header {
+    background-color: #730404;
+    color:  #050303 ;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+    }
+img.img1 {
+    position: relative;
+    float: left;
+    }
+img.img2 {
+    position: relative;
+    float:right;   
+    }
+div.menu {
+    position:relative;
+    float:right;
+    }
+
+li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.otros {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+}
+
+.principal {
+    text-decoration: none;
+    color: white;
+}
+
+div.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.primero {
+    border: 1px solid black;
+    width: 800px;
+    background: linear-gradient(to right ,grey , white);
+    
+}
+
+p {
+    border: 1px black solid;
+    height: 30px;
+    width: fit-content;
+    background: rgba(87, 108, 128, 0.925);
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>IES SanVicente</title>
+        <link rel="stylesheet" type="text/css" href="./css/estilos_index.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="./imgs/logo.png" alt="logoies" class="img1">
+                <img src="./imgs/logo.png" alt="logoies" class="img2">
+                <h1>IES SanVicente</h1>
+                <div class="menu">
+                    <ul>
+                        <li class="menu"><a href = "./index.html" >Home</a></li>
+                        <li class="menu"><a href = "./php/form_mat.php" >Matriculación</a></li>
+                        <li class="menu"><a href = "./php/login.php" >Base de datos Matriculación</a></li>
+                        <li class="menu"><button onclick="redireccion()">Info personal</button></li>
+                    </ul>
+                    <script src="./js/redirect.js"></script>
+                </div>
+            </div>
+
+            <div class="main">
+                <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" 
+                src="https://www.instagram.com/p/CstKqLms8re/embed/captioned/?cr=1&amp;v=14&amp;wp=368
+                &amp;rd=https%3A%2F%2Fiessanvicente.com&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A303.40000
+                009536743%2C%22ls%22%3A246.29999995231628%2C%22le%22%3A298.5%7D" allowtransparency="true" 
+                allowfullscreen="true" frameborder="0" height="816" data-instgrm-payload-id="instagram-media-
+                payload-0" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); 
+                border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; 
+                margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
+                <div class="content">
+                    <h2>Estudios Ofertados</h2>
+                    <ul>
+                        <li>Educación Secundaria Obligatoria (ver proyecto lingüístico)</li>
+                        <li>
+                            Bachillerato, en las modalidades:
+                            <ul>
+                                <li>Bachillerato general</li>
+                                <li>Ciencias y tecnología</li>
+                                <li>Humanidades y ciencias sociales</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Cursos de especialización:
+                            <ul>
+                                <li>Curso de especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</li>
+                                <li>Curso de especialización en Inteligencia Artificial y Big Data</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Ciclos Formativos de grado superior:
+                            <ul>
+                                <li>Administración y Finanzas, presencial y semipresencial (Grado Superior)</li>
+                                <li>Administración de Sistemas Informáticos en Red, presencial y semipresencial (Grado Superior)</li>
+                                <li>Asistencia a la dirección, presencial (Grado Superior)</li>
+                                <li>Desarrollo de Aplicaciones Multiplataforma, presencial y semipresencial (Grado Superior)</li>
+                                <li>Desarrollo de Aplicaciones Web, presencial y semipresencial (Grado Superior)</li>
+                            </ul>
+                        </li>
+                        <li>Ciclos Formativos de grado medio:
+                            <ul>
+                                <li>Gestión Administrativa (Grado Medio)</li>
+                                <li>Sistemas Microinformáticos y Redes (Grado Medio)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Ciclos Formativos de grado básico:
+                            <ul>
+                                <li>Informática de oficina</li>
+                                <li>Informática y comunicaciones</li>
+                                <li>Peluquería y estética</li>
+                                <li>Servicios administrativos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="./imgs/ies_san_vicente.jpg" alt="Instituo IES SanVicente" />
+                </div>
+                
+            </div>
+            <div id="chatbot-container">
+                <div id="chatbox"></div>
+                <input type="text" id="inputBox" placeholder="Escribe tu pregunta">
+                <button onclick="sendQuestion()">Enviar</button>
+            </div>
+
+            
+
+            <script src="./js/chatbot.js"></script>
+
+            <div class="footer">
+                <p>&copy; @2023 Adrián Villaescusa Jimenez</p>
+            </div>
+        </div>
+    </body>
+</html>

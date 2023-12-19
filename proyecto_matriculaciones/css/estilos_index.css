@@ -1,0 +1,116 @@
+body {
+    background:white;    
+    }
+div.header {
+    background-color: #730404;
+    color:  #050303 ;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+    }
+img.img1 {
+    position: relative;
+    float: left;
+    }
+img.img2 {
+    position: relative;
+    float:right;   
+    }
+div.menu {
+    position:relative;
+    float:right;
+    }
+
+div.menu.ul {
+    border: 1px transparent;
+    background-color: #730404;
+}
+
+li.menu {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 3px;
+    
+    
+}
+
+#chatbot-container {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #chatbox {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  #inputBox {
+    margin-top: 10px;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+div.main {
+    display: flex;
+}
+
+iframe {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 360px; /* Ancho del div del iframe de Instagram */
+    margin-right: 20px;
+}
+
+div.content {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-grow: 1; /* El div "main" ocupa todo el espacio disponible restante */
+    margin-left: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div.footer {
+    background-color: #730404;
+
+    text-align: center;
+    height: 40px;
+    bottom: 0px;
+}
+
+.image-container {
+    right: 20px;
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.image-container img {
+    width: 720px;
+    height: 560px;
+}
+

@@ -1,0 +1,69 @@
+body {
+    background:white;    
+    }
+div.header {
+    background-color: #730404;
+    color:  #050303 ;
+    text-align: center;
+    padding: 0px;
+    height: 100px;
+    }
+img.img1 {
+    position: relative;
+    float: left;
+    }
+img.img2 {
+    position: relative;
+    float:right;   
+    }
+div.menu {
+    position:relative;
+    float:right;
+    }
+
+ul {
+    border: 1px transparent;
+    background-color: #730404;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div.form {
+    border: 1px blue solid;
+    width: fit-content;
+    background: linear-gradient(to right ,grey , white);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+caption {
+    font-weight: bolder;
+    font-size: large;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.otros {
+    color: black;
+}
